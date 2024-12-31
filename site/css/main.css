@@ -4,8 +4,8 @@ body {
 }
 
 nav {
-    background-color: rgba(255, 255, 255, 0.7); /* Transparent white */
-    backdrop-filter: blur(10px); /* Optional: Adds a blur effect for better readability */
+    background-color: rgba(255, 255, 255, 0.4); /* Transparent white */
+    backdrop-filter: blur(3px); /* Optional: Adds a blur effect for better readability */
     -webkit-backdrop-filter: blur(10px); /* For Safari */
     padding: 1rem 2rem;
     display: flex;
@@ -15,6 +15,11 @@ nav {
     z-index: 10;
 }
 
+nav a {
+    text-decoration: none;
+    color: #ffffff
+}
+
 #video {
     position: fixed;
     right: 0;
@@ -22,4 +27,8 @@ nav {
     min-width: 100%;
     min-height: 100%;
     z-index: -1; 
+}
+
+.video-content {
+    margin: 3rem
 }
