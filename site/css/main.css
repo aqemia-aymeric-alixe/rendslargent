@@ -3,6 +3,11 @@ body {
     padding:0;
 }
 
+p {
+    color: #ffffff
+}
+
+/* NAV */
 nav {
     background-color: rgba(255, 255, 255, 0.4); /* Transparent white */
     backdrop-filter: blur(3px); /* Optional: Adds a blur effect for better readability */
@@ -14,12 +19,13 @@ nav {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
     z-index: 10;
 }
-
 nav a {
     text-decoration: none;
     color: #ffffff
 }
 
+
+/* VIDEO */
 #video {
     position: fixed;
     right: 0;
@@ -32,3 +38,14 @@ nav a {
 .video-content {
     margin: 3rem
 }
+
+/* PAYMENT */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+  
+nav li {
+    padding-left: 1rem;
+}
+  
