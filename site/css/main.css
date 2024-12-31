@@ -1,8 +1,13 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
 nav {
     background-color: rgba(255, 255, 255, 0.7); /* Transparent white */
     backdrop-filter: blur(10px); /* Optional: Adds a blur effect for better readability */
     -webkit-backdrop-filter: blur(10px); /* For Safari */
-    padding: 10px 20px; /* Adjust padding as needed */
+    padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
