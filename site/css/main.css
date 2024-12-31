@@ -1,0 +1,18 @@
+nav {
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent white */
+  backdrop-filter: blur(10px); /* Optional: Adds a blur effect for better readability */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  padding: 10px 20px; /* Adjust padding as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
