@@ -15,13 +15,9 @@
     window.onload = (event) => { videoSize( event ) };    
     function videoSize( event )
     {
-      alert("Screen Width is: " + screen.width);
       let myvid = document.getElementById("video");
-      //# if BIGGER THAN the 800 pixels
       if ( screen.width > 800 ) { myvid.src = "money.mp4"; }
-      //# if SMALLER THAN or EQUAL-TO the 800 pixels
       if ( screen.width <= 800 ) { myvid.src = "money-small.mp4"; }
-      //# load URL (for playback)
       myvid.load(); 
     }    
   </script>
