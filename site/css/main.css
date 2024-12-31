@@ -50,12 +50,12 @@ nav a {
 }
 
 /* PAYMENT */
-nav ul {
+ul {
     list-style-type: none;
     display: flex;
 }
   
-nav li {
+li {
     display: inline-block;
     text-decoration: none;
     padding-left: 1rem;
